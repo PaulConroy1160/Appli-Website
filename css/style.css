@@ -1,0 +1,27 @@
+/* 
+    Document   : style
+    Created on : 17-Nov-2014, 23:41:09
+    Author     : paulconroy
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#logo
+{
+   font-family: "helvetica" ;
+   color: #3498DB;
+}
+
+#top-border
+{
+   margin-top: 50px;
+   border-top:solid #3498DB 5px;
+   width:103%;
+   margin-left:-10px;
+}
+
+

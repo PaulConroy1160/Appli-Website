@@ -1,0 +1,60 @@
+* {
+                margin: 0px;
+                padding: 0px;
+            }
+            #logo { background: black; height:100px;}
+            #logout { background: black; height:89px;}
+            #logo h1 { color: #a4bccd; font-family: "Century Gothic"; font-weight: "bold"; font-size: 50px; margin-top: 10px;}
+            #logo a {text-decoration: none; color: #a4bccd;}
+            #border{ border-top:solid #68cbf5 5px;}
+            #profileInfo{height:300px; background: #fb3364;}
+            #memberPhoto {height:300px; background: #999999;}
+            #notifications {height:300px; width:360px; background: #6aaeaa;}
+            #nav {float: right; font-family: "Century Gothic"; list-style: none; margin-top: 30px;}
+            #nav ul{list-style: none; margin-right:20px;}
+            #nav li {display: inline; margin-right: 7px; text-decoration: none;}
+            #nav a{text-decoration: none; color: #bbbbbb; }
+            #nav a:hover{ color: white; text-decoration: underline;}
+            #header{background-color: black; height:100px; width: 100%;}
+            #mainDiv{background-image: url("../imageRes/pattern1.png"); background-repeat: repeat; height: 100%; width: 100%;}
+            #mainHeader{margin-top: 70px; font-family: "arial";}
+            #mainHeader h1 { font-size: 40px;}
+            #searchJob { margin-top: 10%; float:right;}
+            #formWrap {float:top; height: 300px; font-family: "Century Gothic";}
+            #formWrapSearch {margin-top:10%; float:top; height: 300px; font-family: "Century Gothic"; }
+            #formWrapSearch input {height:70px; font-size: 40px;}
+            #formWrapSearchRefine input {position: absolute; margin-top: 10%; margin-left: 20%; font-size: 20px;}
+            #table {font-family: "Century Gothic"; }
+            #jDescription{font-family: "Century Gothic"; max-height: 160px; min-height: 160px; font-size: 20px; margin-top: 130px; max-width: 800px; min-width: 800px;}
+            #jobViewTable {font-family: "Century Gothic";  min-width: 200px; position: fixed; top:100px; min-height: 20px; }
+            #appliButton {margin-top:50%; position: relative;}
+            #appliButton {font-family: "Century Gothic"; font-weight: bold; height: 50px; width:200px; font-size: 25px; color:#a4bccd;}
+            
+            #savedJob{ margin-top: 10%; float:right;}
+            #editResume{ margin-top: 10%; float:right;}
+            #controlPanelBody {margin-top:20px;}
+            #mainPhoto{ margin-left: 180px;}
+            #lowerBody{background-color: white; height: 640px;}
+            #userBio { margin-top: 50px; max-height:100px; min-height: 100px;}
+            #userBio p{color: #9c9c9c; font-size: 18px; font-family: "arial";}
+            #userExperience {margin-top: 50px; font-family: "arial";}
+            #userExperience h2{font-family: "arial"; margin-top: 50px; margin-left: 0px;}
+            #userExperience ul{list-style-type: square; margin-top: 20px; margin-left: 20px;}
+            #userExperience li {color: #9c9c9c; margin-top: 10px; font-size: 18px;}
+            #userEducation {margin-top: 250px; font-family: "arial";}
+            #userEducation p {color: #9c9c9c; margin-top: 10px;}
+            #userEducation h4 {text-decoration: underline; color: #a4bccd; font-size: 18px; margin-top: 20px;}
+            #footer {background-color: black; height: 150px; position: absolute; bottom: 0; width: 100%;}
+            
+            
+            #contactInfo h3{color: white; font-family: "arial"; margin-top: 20px;}
+            #contactInfo p{color: white; font-family: "arial"; margin-top: 5px;}
+            #contactinfo a{float:left; text-decoration: none; color: white;}
+            #controlPanelMain{ position: relative; top: 50%; transform: translateY(50%);} 
+            #saveNotifications{ position:absolute; margin-left: 120px; margin-bottom: 50px; width:50px; height:50px; border-radius:50px; font-family: "Century Gothic"; font-weight: bold; font-size:20px; color:#fff;line-height:50px;text-align:center;background:#e74c3c;}
+            #page-container-default{ min-height: 100%; position: absolute; background-image: url("../imageRes/pattern1.png"); background-repeat: repeat; width: 100%;}
+            #page-container-pink { min-height: 100%; position: absolute; background-image: url("../imageRes/pattern2.png"); background-repeat: repeat; width: 100%;}
+            #page-container-blue { min-height: 100%; position: absolute; background-image: url("../imageRes/pattern3.png"); background-repeat: repeat; width: 100%;}
+            #page-container-navy { min-height: 100%; position: absolute; background-image: url("../imageRes/pattern4.png"); background-repeat: repeat; width: 100%;}
+            .table{min-height:100px; position: fixed; max-width: 900px; }
+            .table a{color:white;}
